@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atul Nag - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            Atul Nag
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">
+            Atul Nag
+        </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#interests" onclick="toggleMenu()">Interests</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/Profilepic.jpeg" alt="Atul Profilepic">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Atul Nag</h1>
+            <p class="section_text_p2">Frontend Developer</p>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/atul-nag-935233303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'">
+                <img src="./assets/github.png" alt="My Github Profile" class="icon"
+                    onclick="location.href='https://github.com/atul-10-01'">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <div class="section_text">
+            <p class="section_text_p1">Know More</p>
+            <h1 class="title">About Me</h1>
+        </div>
+        <div class="container">
+            <div class="education">
+                <img class="icon" src="./assets/education.png" alt="education">
+                <p>Pursuing B.Tech at MAIT, Delhi</p>
+            </div>
+            <div class="moreAbout">
+                <p>I am a 2<sup>nd</sup> year Electronics and Communication Engineering (ECE) student with a strong
+                    passion for web development. My focus lies in mastering Frontend Development, particularly with
+                    ReactJS. As a beginner in this field, I embrace each day as an opportunity to learn and implement
+                    new concepts. I am eager to seize opportunities and strive for excellence in my journey towards
+                    becoming a skilled web developer.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="skills">
+        <div class="section_text">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title">Skills</h1>
+        </div>
+        <div class="details-container">
+            <article>
+                <img src="./assets/checkmark.png" class="icon" alt="checkmark">
+                <div>
+                    <h3>HTML</h3>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" class="icon" alt="checkmark">
+                <div>
+                    <h3>CSS</h3>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" class="icon" alt="checkmark">
+                <div>
+                    <h3>JavaScript</h3>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" class="icon" alt="checkmark">
+                <div>
+                    <h3>Tailwind CSS</h3>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" class="icon" alt="checkmark">
+                <div>
+                    <h3>ReactJS</h3>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" class="icon" alt="checkmark">
+                <div>
+                    <h3>Git & Github</h3>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="interests">
+        <div class="section_text">
+            <p class="section_text_p1">Get to Know My</p>
+            <h1 class="title">Interests</h1>
+        </div>
+        <div class="details-container">
+            <article>
+                <img src="./assets/checkmark.png" class="icon" alt="checkmark">
+                <div>
+                    <h3>Exploring and working with AI tools</h3>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" class="icon" alt="checkmark">
+                <div>
+                    <h3>Exploring places and people</h3>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" class="icon" alt="checkmark">
+                <div>
+                    <h3>Expressing my emotions and feelings through poetry</h3>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section_text">
+            <p class="section_text_p1">Browse My</p>
+            <h1 class="title">Projects</h1>
+        </div>
+        <div class="project-container">
+            <div class="project" id="project1">
+                <div class="img-container">
+                    <img src="./assets/Chhatha.png" alt="">
+                </div>
+                <div class="title">
+                    <h3>Chhatha Puja</h3>
+                </div>
+                <div class="btn-container">
+                    <button class="project-btn" onclick="location.href='https://github.com/atul-10-01/Chhatha-Puja'">
+                        Github
+                    </button>
+                    <button class="project-btn" onclick="location.href='https://atul-10-01.github.io/Chhatha-Puja/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="project" id="project2">
+                <div class="img-container">
+                    <img src="./assets/Weather.png" alt="">
+                </div>
+                <div class="title">
+                    <h3>Weather App</h3>
+                </div>
+                <div class="btn-container">
+                    <button class="project-btn" onclick="location.href='https://github.com/atul-10-01/Weather_app'">
+                        Github
+                    </button>
+                    <button class="project-btn" onclick="location.href='https://atul-10-01.github.io/Weather_app/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section_text">
+            <p class="section_text_p1">Get in Touch</p>
+            <h1 class="title">Contact</h1>
+        </div>
+        <div class="contact-info-container">
+            <div class="contact-info">
+                <img src="./assets/email.png" alt="Email icon" class="email-icon">
+                <p><a href="mailto:atulya1202112@gmail.com">atulya1202112@gmail.com</a></p>
+            </div>
+            <div class="contact-info">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="linkedin-icon">
+                <p><a href="https://www.linkedin.com/in/atul-nag-935233303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

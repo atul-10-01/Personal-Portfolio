@@ -1,0 +1,136 @@
+@media screen and (max-width: 900px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    section {
+        min-height: fit-content;
+        box-sizing: border-box;
+    }
+
+    #profile {
+        display: inline-block;
+        height: 83vh;
+    }
+
+    .section_pic-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3vh;
+    }
+
+    .section_pic-container img {
+        height: 46vw;
+        width: auto;
+    }
+
+    .moreAbout {
+        margin: 5vh auto;
+        width: 80%;
+        font-size: 1.2rem;
+    }
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+    }
+    
+    .project {
+        width: 90%;
+    }
+    
+    #projects {
+        height: 200vh;
+    
+    }
+    
+    .project .title {
+        font-size: 1.2rem;
+    }
+    
+    .project .project-btn {
+        width: 6rem;
+        font-size: 0.6rem;
+    }
+    
+    
+    #interests .details-container {
+        font-size: 0.8rem;
+        width: 80%;
+        gap: 0;
+        height: 30vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .section_pic-container {
+        margin: 7vh 0;
+    }
+
+    .education .icon {
+        height: 2vh;
+        width: auto;
+    }
+
+    .education p {
+        font-size: 1.2rem;
+        transform: translate(0px, 8px);
+
+    }
+
+    .moreAbout {
+        font-size: 1rem;
+    }
+
+    #skills .details-container {
+        font-size: 0.6rem;
+        width: 80%;
+
+    }
+
+    #skills article {
+        margin: 0 4vw;
+    }
+
+    #interests .details-container {
+        font-size: 0.6rem;
+        width: 80%;
+        gap: 0;
+        height: 30vh;
+    }
+
+    #contact img {
+        height: 0.7rem;
+    }
+
+    .contact-info-container {
+        font-size: 0.7rem;
+        padding: 3.5vw 3vw;
+    }
+
+    .contact-info p {
+        transform: translate(0, -2px);
+    }
+
+}
