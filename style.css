@@ -7,6 +7,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  padding-top: 15vh;
 }
 
 html {
@@ -33,7 +34,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 15vh;
 }
 
 .nav-links {
@@ -146,6 +147,24 @@ a:hover {
   transform: none;
 }
 
+#desktop-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; /* Optionally, add a background color */
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+#hamburger-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; /* Optionally, add a background color */
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
 
 /* PROFILE Section CSS */
 
@@ -200,7 +219,9 @@ a:hover {
 
 
 #about {
-  height: 100vh;
+  height: 115vh;
+  padding-top: 10vh;
+
 }
 
 #about .section_text {
@@ -236,7 +257,8 @@ a:hover {
 
 /* SKILLS Section CSS */
 #skills {
-  height: 100vh;
+  height: 115vh;
+  padding-top: 12vh;
 }
 
 #skills .section_text {
@@ -276,7 +298,9 @@ article div {
 /* INTERESTS Section CSS */
 
 #interests {
-  height: 100vh;
+  height: 115vh;
+  padding-top: 12vh;
+
 }
 
 #interests .section_text {
@@ -299,7 +323,9 @@ article div {
 
 /* Projects Section CSS */
 #projects {
-  height: 100vh;
+  height: 115vh;
+  padding-top: 12vh;
+
 }
 
 #projects .section_text {
@@ -370,7 +396,9 @@ article div {
 
 /* Contact section CSS */
 #contact{
-  height: 40vh;
+  height: 55vh;
+  /* padding-top: 15vh; */
+
 }
 
 .contact-info-container{
